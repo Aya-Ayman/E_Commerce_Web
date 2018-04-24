@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 6, 2018, 9:08:02 PM
+    Author     : abdalla
+*/
+
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+table#t02 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t02 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t02 th {
+    background-color: black;
+    color: white;
+}
+body {
+    font-family: Arial;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}

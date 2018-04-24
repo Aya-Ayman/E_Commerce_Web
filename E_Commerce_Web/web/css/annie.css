@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+body{
+	margin:0;
+	background:#4EB286;
+	font-family: 'Roboto Slab', serif;
+	text-align: right;
+}
+h2,p,h3{
+    text-align: left;
+}
+*{
+	box-sizing: border-box;
+}
+.annie-main{
+	background-color: white;
+	color:#333;
+	max-width: 1000px;
+	margin:0 auto;
+	padding: 15px 30px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+        position:relative;
+}
+table{
+	border: 2px solid #eee;
+	padding:4px;
+}
+th{
+	color:white;
+	background: #333;
+}
+input{
+	font-family: 'Roboto Slab', serif;
+	font-size:21px;
+	border: 2px solid #ddd;
+	border-radius:3px;
+	vertical-align: middle;
+}
+a{
+	background: #94A5B8;
+	color:white;
+	border-radius: 7px;
+	padding:0 7px;
+	text-decoration: none;
+	border-bottom: 2px solid #333;
+	vertical-align: middle;
+	transition:0.3s;
+}
+a:hover{
+	background:#333;
+	transition:0.3s;
+	
+	border-bottom: 2px solid #333;
+}
+td{
+	padding:3px 5px;
+	border: 0;
+}
+
+input[type="submit"],input[type="button"],button{
+	background:#4EB286;
+	color: white;
+	cursor:pointer;
+	border:0;
+	min-height: 35px;
+}
+input[type="submit"]:hover,input[type="button"]:hover,button:hover{
+	transition: 0.3s;
+	background:rgb(151, 211, 185);
+}
+.annie-submit{
+	margin-left: -20px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	width: 40px;
+}
